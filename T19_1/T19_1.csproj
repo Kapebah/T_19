@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildClass.cs" />
     <Compile Include="IMyInterface.cs" />
     <Compile Include="MyClass.cs" />
     <Compile Include="Program.cs" />
