@@ -1,0 +1,7 @@
+S:\work\FoAP\T_19\T19_1_hometask\bin\Debug\T19_1_hometask.exe.config
+S:\work\FoAP\T_19\T19_1_hometask\bin\Debug\T19_1_hometask.exe
+S:\work\FoAP\T_19\T19_1_hometask\bin\Debug\T19_1_hometask.pdb
+S:\work\FoAP\T_19\T19_1_hometask\obj\Debug\T19_1_hometask.csproj.AssemblyReference.cache
+S:\work\FoAP\T_19\T19_1_hometask\obj\Debug\T19_1_hometask.csproj.CoreCompileInputs.cache
+S:\work\FoAP\T_19\T19_1_hometask\obj\Debug\T19_1_hometask.exe
+S:\work\FoAP\T_19\T19_1_hometask\obj\Debug\T19_1_hometask.pdb

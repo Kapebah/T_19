@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 namespace T19_1_hometask
 {
     /// <summary>
-    /// Интерфейс для геометрических фигур, включающий в себя методы вычисления Периметра и Площади
+    /// Интерфейс для геометрических фигур, включающий в себя методы вычисления Периметра и Площади, а также Вывод
     /// </summary>
     interface Shapes
     {
         double Perimeter();
         double Area();
+        string ToString();
     }
 }

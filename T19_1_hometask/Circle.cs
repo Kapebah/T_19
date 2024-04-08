@@ -1,17 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static System.Console;
 
 namespace T19_1_hometask
 {
     class Circle : Shapes
     {
         /// <summary>
+        /// Название фигуры
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
         /// Радиус
         /// </summary>
-        public int Radius { get; set; }
+        public double Radius { get; set; }
+
+        /// <summary>
+        /// Конструкторы
+        /// </summary>
+        public Circle() { }
+        public Circle(string name, double radius)
+        {
+            Name = name; Radius = radius;
+        }
         /// <summary>
         /// Вычисление площади
         /// </summary>
@@ -27,7 +38,28 @@ namespace T19_1_hometask
         /// <returns>Периметр</returns>
         public double Perimeter()
         {
-            throw new NotImplementedException();
+            return 2 * Math.PI * Radius;
+        }
+        /// <summary>
+        /// Вывод информации
+        /// </summary>
+        /// <returns>Вывод информации о прямоугольнике</returns>
+        public override string ToString()
+        {
+            return $"Name: {Name}\nRadius: {Radius}\nPerimeter: {Perimeter():f2}\nArea: {Area():f2}";
+        }
+
+        /// <summary>
+        /// Ввод данных с клавиатуры
+        /// </summary>
+        /// <returns>Ввод информации о круге</returns>
+        public static Circle Input()
+        {
+            Write("Enter the name of shape: ");
+            string name = ReadLine();
+            Write("Enter the radius: ");
+            double radius = Convert.ToDouble(ReadLine());
+            return new Circle(name, radius);
         }
     }
 }
