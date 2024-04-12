@@ -1,0 +1,7 @@
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\bin\Debug\Task_7.exe.config
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\bin\Debug\Task_7.exe
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\bin\Debug\Task_7.pdb
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\obj\Debug\Task_7.csproj.AssemblyReference.cache
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\obj\Debug\Task_7.csproj.CoreCompileInputs.cache
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\obj\Debug\Task_7.exe
+S:\work\FoAP\T_19\T19_2_Tasks\Task_7\obj\Debug\Task_7.pdb

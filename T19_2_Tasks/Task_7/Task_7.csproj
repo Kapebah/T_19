@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F62DF3E-E763-41EE-9ADD-ACC19A568AEB}</ProjectGuid>
+    <ProjectGuid>{CDEAB738-38E3-4628-800B-A6680C316B55}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task_4</RootNamespace>
-    <AssemblyName>Task_4</AssemblyName>
+    <RootNamespace>Task_7</RootNamespace>
+    <AssemblyName>Task_7</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Human.cs" />
+    <Compile Include="IPlayable.cs" />
+    <Compile Include="IRecodable.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reflection.cs" />
-    <Compile Include="Talk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,6 +16,7 @@ namespace Task_1
                 ForegroundColor = ConsoleColor.Green;
                 WriteLine("Example #1\n");
                 ResetColor();
+
                 DerivedClass dClass1 = new DerivedClass();
                 dClass1.Method();
 
