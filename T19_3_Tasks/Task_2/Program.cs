@@ -28,6 +28,7 @@ namespace Task_2
                 }
 
                 people.Sort();
+
                 WriteLine("\nSort: \n");
                 foreach (Person person in people)
                 {
